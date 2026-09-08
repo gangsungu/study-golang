@@ -1,0 +1,14 @@
+# 빌드 산출물
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 테스트 산출물
+*.test
+*.out
+
+# 에디터
+.idea/
+.vscode/
