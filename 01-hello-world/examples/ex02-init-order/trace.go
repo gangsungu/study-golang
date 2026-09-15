@@ -1,3 +1,7 @@
+// main.go와 같은 폴더이므로 같은 package main이다.
+// 아무 데서도 import하지 않지만, go run이 폴더 안의 .go를 전부 모아
+// 하나로 컴파일하므로 함께 실행된다. 파일은 이름공간이 아니라서
+// main.go가 여기 있는 mainVar를 그냥 참조한다.
 package main
 
 import "fmt"
